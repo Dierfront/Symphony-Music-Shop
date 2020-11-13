@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="icon" href="img/icono.ico">
+	<title>
+		Symphony Music Shop
+	</title>
+	<meta charset="utf-8">
+	<meta name="keyboard" content="instrumetos musicales, cursos musicales">
+	<meta name="description" content="Symphony es una pagina de ventas y asesoramiento de productos musicales, en la cual también se ofrecen clases ya sea sobre música en general o si se solicita puede ser de un instrumento musical en general.">
+	<meta name="author" content="Joshua Rivas">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/index-content.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+	<script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+</head>
+
+<body>
+    <div class="topbar">
+			<div class="contenedor">
+				<div class="row">
+					<div class="slogan">
+						<stong>Siente la sinfonia en cada toque</stong>
+					</div>
+				</div>
+			</div>
+	</div>
+
+	<header>
+		<div class="site-header">
+			<div class="contenedor">
+				<div class="row header-row">
+				    <div class="header-logo col-lg-3 col-md-6 col-sm-6 col-xs-6">
+				    	<div class="logo-img">
+				    		<a href="index.html">
+				    			<img alt="Symphony Music Shop" src="img/negro.png" class="lazyloaded">
+				    			<noscript>
+				    				<img alt="Symphony Music Shop" src="Img/negro.png" class="lazyloaded">
+				    			</noscript>
+				    		</a>
+				    	</div>
+
+				    	<p class="site-title">
+				    		<a href="index.html" rel="home">Home</a>
+				    	</p>
+				    	</div>
+				    </div>
+				    <div class="header-extras">
+				        <div class="product-extra-search">
+				        	<form class="products-search" method="get" action="index.html">
+				        		<div class="psearch-content">
+				        			<div class="product-cat">
+				        				<div class="product-cat-label">
+				        					Todo
+				        					<svg class="lnr lnr-chevron-down"><use xlink:href="#lnr-chevron-down"></use></svg>
+				        				</div>
+
+				        				<select name="product-cat" class="product-cat-dd">
+				        					<option value="0" selected="selected">Todo</option>
+				        					<option class="level-0" value="bajos">Bajos</option>
+				        					<option class="level-1" value="accesorios-bajos">&nbsp;&nbsp;&nbsp;Accesorios</option>
+				        					<option class="level-1" value="amplificadores-de-bajo">&nbsp;&nbsp;&nbsp;Amplificadores de bajo</option>
+				        					<option class="level-1" value="bajos-electricos">&nbsp;&nbsp;&nbsp;Bajos eléctricos</option>
+				        					<option class="level-1" value="pedales-y-efectos">&nbsp;&nbsp;&nbsp;Pedales &amp; Efectos</option>
+				        					<option class="level-0" value="estudio-y-grabacion">Estudio &amp; Grabación</option>
+				        					<option class="level-1" value="accesorios-estudio">&nbsp;&nbsp;&nbsp;Accesorios</option>
+				        					<option class="level-1" value="audifonos">&nbsp;&nbsp;&nbsp;Audífonos</option>
+				        					<option class="level-1" value="bocinas">&nbsp;&nbsp;&nbsp;Bocinas</option>
+				        					<option class="level-1" value="consolas">&nbsp;&nbsp;&nbsp;Consolas</option>
+				        					<option class="level-1" value="dj">&nbsp;&nbsp;&nbsp;DJ</option>
+				        					<option class="level-1" value="interfaces-de-estudio">&nbsp;&nbsp;&nbsp;Interfaces de Estudio</option>
+				        					<option class="level-1" value="microfonos">&nbsp;&nbsp;&nbsp;Micrófonos</option>
+				        					<option class="level-1" value="monitores-de-estudio">&nbsp;&nbsp;&nbsp;Monitores de Estudio</option>
+				        					<option class="level-0" value="guitarra">Guitarras</option>
+				        					<option class="level-1" value="accesorios-y-cuerdas">&nbsp;&nbsp;&nbsp;Accesorios &amp; Cuerdas</option>
+				        					<option class="level-1" value="amplificadores-de-guitarra">&nbsp;&nbsp;&nbsp;Amplificadores de Guitarra</option>
+				        					<option class="level-1" value="guitarras-acusticas">&nbsp;&nbsp;&nbsp;Guitarras Acústicas</option>
+				        					<option class="level-1" value="guitarras-electricas">&nbsp;&nbsp;&nbsp;Guitarras Eléctricas</option>
+				        					<option class="level-1" value="pedales-y-efectos-guitarra">&nbsp;&nbsp;&nbsp;Pedales &amp; Efectos</option>
+				        					<option class="level-1" value="ukeleles">&nbsp;&nbsp;&nbsp;Ukeleles</option>
+				        					<option class="level-0" value="percusion">Percusión</option>
+				        					<option class="level-1" value="accesorios-baterias">&nbsp;&nbsp;&nbsp;Accesorios</option>
+				        					<option class="level-1" value="baterias-acusticas">&nbsp;&nbsp;&nbsp;Baterías Acústicas</option>
+				        					<option class="level-1" value="baterias-electricas">&nbsp;&nbsp;&nbsp;Baterías Eléctricas</option>
+				        					<option class="level-1" value="percusion-global">&nbsp;&nbsp;&nbsp;Percusión Global</option>
+				        					<option class="level-1" value="percusion-latina">&nbsp;&nbsp;&nbsp;Percusión Latina</option>
+				        					<option class="level-1" value="platillos">&nbsp;&nbsp;&nbsp;Platillos</option>
+				        					<option class="level-0" value="teclados-y-midi">Teclados &amp; MIDI</option>
+				        					<option class="level-1" value="accesorios-teclados-y-midi">&nbsp;&nbsp;&nbsp;Accesorios</option>
+				        					<option class="level-1" value="controladores-midi">&nbsp;&nbsp;&nbsp;Controladores MIDI</option>
+				        					<option class="level-1" value="pianos-digitales">&nbsp;&nbsp;&nbsp;Pianos Digitales</option>
+				        					<option class="level-1" value="sintetizadores">&nbsp;&nbsp;&nbsp;Sintetizadores</option>
+				        					<option class="level-1" value="teclados">&nbsp;&nbsp;&nbsp;Teclados Electrónicos</option>
+				        					<option class="level-0" value="viento">Viento</option>
+				        					<option class="level-1" value="viento-madera">&nbsp;&nbsp;&nbsp;Viento Madera</option>
+				        					<option class="level-1" value="viento-mecanico">&nbsp;&nbsp;&nbsp;Viento Mecánico</option>
+				        					<option class="level-1" value="viento-metal">&nbsp;&nbsp;&nbsp;Viento Metal</option>
+				        				</select>
+				        			</div>
+
+				        			<div class="search-wrapper">
+				        				<input type="text" name="s" class="search-field" autocomplete="off" placeholder="Busca lo tuyo">
+				        				<input type="hidden" name="post_type" value="product">
+				        				<div class="search-results woocommerce"></div>
+				        			</div>
+
+				        			<button type="submit" class="search-submit">Buscar</button>
+				        		</div>
+				        	</form>
+				        </div>
+
+				        <ul class="extras-menu">
+				        	<li class="extras-menu-item menu-item-hotline">
+				        		<span class="lnr lnr-telefono-auricular"></span> 			        			
+				        		<span class="hotline-content">
+				        			<label>Linea de Atención</label>
+				        			<span class="numero">+507 6825-1840</span>
+				        		</span>
+				        	</li>
+
+				        	<li class="extras-menu-bolsa bolsa">
+				        		<a href="bolsa.html" class="cart-contents" id="icon-cart-contents">
+				        			<svg class="lnr lnr-cart extra-icon"><use xlink:href="#lnr-cart"></use></svg>
+				        			<span class="mini-item-counter">0</span>
+				        		</a>
+				        		<div class="mini-cart-content">
+				        			<span class="tl-arrow-menu"></span>
+				        			<div class="widget_shopping_cart_content">
+				        			    <p class="woocommerce-mini-cart__empty-message">No products in the cart.</p>
+				        		    </div>
+				        		</div>
+				        	</li>
+				        </ul>
+				    </div>
+                </div>
+			</div>
+		</div>
+
+		<div class="main-menu hidden-xs hidden-sm">
+			<div class="contenedor">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+						<div class="col-header-menu">
+							<div class="primary-nav nav">
+						            <ul id=menu-prymary-menu class="menu">
+							            <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2856"><a href="estudio y grabacion.html">ESTUDIO & GRABACION</a></li>
+							            <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2857"><a href="bajos.html">BAJOS</a></li>
+							            <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2858"><a href="guitarras.html">GUITARRAS</a></li>
+							            <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2859"><a href="teclados y midi.html">TECLADOS & MIDI</a></li>
+							            <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2860"><a href="percusion.html">PERCUSIÓN</a></li>
+							            <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2872"><a href="viento.html">VIENTO</a></li>
+							            <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2874"><a href="cursos.html">CURSOS</a></li>
+						            </ul>
+						    </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+	<div id="content" class="site-content">
+		<div class="container-fluid"> 
+			<div class="row">
+
+				<div class="vc_row wpb_row vc_row-fluid">
+					<div class="contenedor">
+						<div class="row">
+							<div class="wpb_column vc_column_container vc_col-sm-12 vc_parallax">
+								<div class="vc_column-inner">
+									<div class="wpb_wrapper">
+										<div class="slider">
+											<ul>
+												<li>
+													<a href="teclados y midi.html">	
+													    <video src="vid/Anuncio-1.mp4" autoplay muted loop></video>
+													</a>
+												</li>
+
+												<li>
+													<img src="Img/Anuncio-2.png">
+												</li>
+
+												<li>
+													<a href="estudio y grabacion.html">
+													    <video src="Vid/Anuncio-3.mp4" autoplay muted loop></video>
+													</a>
+												</li>
+											</ul>
+										</div>
+
+										<div class="martfury-empty-space">
+											<div class="mf_empty_space_lg" style="height: 30px"></div>
+											<div class="mf_empty_space_md" style="height: 30px"></div>
+											<div class="mf_empty_space_xs" style="height: 10px"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> 
+
+				<div class="vc_row wpb_row vc_row-fluid">
+					<div class="contenedor">
+						<div class="row">
+							<div class="wpb_column vc_column_container vc_col-sm-6">
+								<div class="vc_column-inner">
+									<div class="wpb_wrapper">
+										<div class="wpb_single_image wpb_content_element vc_align_left">
+											<figure class="wpb_wrapper vc_figure">
+												<div class="vc_single_image-wrapper   vc_box_border_grey">
+													<img width="1710" height="630" alt="" loading="lazy" data-sizes="(max-width: 840px) 100vw, 840px" class="vc_single_image-img attachment-full lazyloaded" src="Img/Anuncio-4.png" sizes="(max-width: 840px) 100vw, 840px">
+												</div>
+											</figure>
+										</div>
+
+										<div class="martfury-empty-space">
+											<div class="mf_empty_space_lg" style="height: 15px"></div>
+											<div class="mf_empty_space_md" style="height: 15px"></div>
+											<div class="mf_empty_space_xs" style="height: 15px"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="wpb_column vc_column_container vc_col-sm-6">
+								<div class="vc_column-inner">
+									<div class="wpb_wrapper">
+										<div class="wpb_single_image wpb_content_element vc_align_left">
+											<figure class="wpb_wrapper vc_figure">
+												<div class="vc_single_image-wrapper   vc_box_border_grey">
+													<img width="1710" height="630" alt="" loading="lazy" data-sizes="(max-width: 840px) 100vw, 840px" class="vc_single_image-img attachment-full lazyloaded" src="Img/Anuncio-5.png" sizes="(max-width: 840px) 100vw, 840px">
+												</div>
+											</figure>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="wpb_column vc_column_container vc_col-sm-12">
+								<div class="vc_column-inner">
+									<div class="wpb_wrapper">
+										<div class="martfury-empty-space">
+											<div class="mf_empty_space_lg" style="height: 40px"></div>
+											<div class="mf_empty_space_md" style="height: 40px"></div>
+											<div class="mf_empty_space_xs" style="height: 40px"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> 
+
+				<div class="vc_row wpb_row vc_row-fluid">
+					<div class="contenedor">
+						<div class="row">
+							<div class="wpb_column vc_column_container vc_col-sm-12">
+								<div class="vc_column-inner">
+									<div class="wpb_wrapper">
+										<div class="martfury-empty-space ">
+											<div class="mf_empty_space_lg" style="height: 20px"></div>
+											<div class="mf_empty_space_md" style="height: 20px"></div>
+											<div class="mf_empty_space_xs" style="height: 20px"></div>
+										</div>
+										
+										<div class="wpb_single_image wpb_content_element vc_align_center">
+											<figure class="wpb_wrapper vc_figure">
+												<div class="vc_single_image-wrapper vc_box_border_grey">
+													<img width="1170" height="245" alt="City Lights" title="#" class="vc_single_image-img  lazyloaded" src="Img/envios-2.png">
+													<noscript>
+														<img class="vc_single_image-img " src="Img/envios-2.png" width="1170" height="245" alt="City Lights" title="City Lights">
+													</noscript>
+												</div>
+											</figure>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> 
+
+			</div>
+		</div>
+	</div>
+
+
+	<footer id="colophon" class="site-footer">
+		<nav class="footer-layout footer-layout-1 footer-custom">
+			<div class="martfury-container">
+	            <div class="footer-content">
+	    		    <div class="footer-widgets" id="footer-widgets">
+	    		    	
+	    		    	<div class="footer-sidebar footer-1">
+	    		    		<div id="custom_html-18" class="widget_text widget widget_custom_html">
+	    		    			<h4 class="widget-title">Nosotros</h4>
+	    		    			<div class="textwidget custom-html-widget">
+	    		    				  <style>
+	    		    				      a { color: #000000; }
+	    		    				  </style>
+
+	    		    				<a class="remarcado" href="Nosotros.html">Acerca de nosotros</a>
+
+	    		    				<br>
+
+	    		    				  <style>
+	    		    				    a { color: #000000; }
+	    		    				  </style>
+
+	    		    				<a class="remarcado" href="index.html">Contacto</a>
+
+	    		    				<br>
+	    		    				  <style>
+	    		    				    a { color: #000000; }
+	    		    				  </style>
+
+	    		    				<a class="remarcado" href="Direccion.html">Dirección</a>
+
+	    		    			</div>
+	    		    		</div>
+	    		    	</div>
+
+	    		    	<div class="footer-sidebar footer-2">
+	    		    		<div id="custom_html-16" class="widget_text widget widget_custom_html">
+	    		    			<h4 class="widget-title">Compras</h4>
+	    		    			<div class="textwidget custom-html-widget">
+	    		    				    <style>
+	    		    					    a { color: #000000; }
+	    		    				    </style>
+
+	    		    				<a class="remarcado" href="#">¿Cómo comprar en Symphony?</a>
+
+	    		    				<br>
+
+	    		    					<style>
+	    		    						a { color: #000000; }
+	    		    					</style>
+
+	    		    				<a class="remarcado" href="#">Métodos de pago</a>
+	    		    				
+	    		    			</div>
+	    		    		</div>
+	    		    	</div>
+
+	    		    </div> 
+	            </div>
+
+	            <div class="footer-button">
+	            	<div class="row footer-row">
+	            		<div class="col-footer-copyright col-lg-6 col-md-12 col-sm-12 col-xs-12">
+	            			<div class="footer-copyright">© 2020 Symphony Music Shop. Todos los derechos reservados</div>
+	            		</div>
+
+	            		<div class="col-footer-payments col-lg-6 col-md-12 col-sm-12 col-xs-12">
+	            			<div class="footer-payments">
+	            				<ul class="payments"> </ul>
+	            			</div>
+	            		</div>
+	            	</div>
+	            </div>
+	        </div>   
+	    </nav>
+	</footer>
+
+</body>
+
+</html>

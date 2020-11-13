@@ -1,0 +1,131 @@
+.site-footer {
+    font-weight: 400;
+}
+
+.site-footer {
+    border-top: 1px solid #e1e1e1;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+
+.martfury-container {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.site-footer .footer-widgets {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e1e1e1;
+    flex-wrap: wrap;
+}
+
+.site-footer .footer-widgets .footer-sidebar {
+    max-width: 33.33%;
+}
+
+.site-footer .footer-widgets .widget:last-child {
+    margin-bottom: 0;
+}
+
+.site-footer .footer-widgets .widget {
+    margin-bottom: 40px;
+}
+
+.widget {
+    margin-bottom: 65px;
+}
+
+.site-footer .footer-widgets .widget .widget-title {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.widget .widget-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    margin-top: 0;
+    color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    font-family: 'Work Sans', Arial, sans-serif;
+    line-height: 1.2;
+    color: #000;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p {
+    margin-bottom: 1.7em;
+    margin-top: 0;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.remarcado:hover {
+	color: #ffbf00;
+    background: #000;
+    transition-duration: 1s; 
+}
+
+.footer-layout-1 .footer-bottom {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.footer-layout .footer-row {
+    display: block;
+    text-align: center;
+}
+
+.footer-layout-1 .footer-row {
+
+    align-items: center;
+}
+
+.col-md-12 {
+    width: 100%;
+}
+
+.site-footer .footer-copyright {
+    color: #000;
+}
+
+.footer-layout .footer-payments {
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.site-footer .footer-payments {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.site-footer .footer-payments ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 27px;
+}
+
+.footer-row {
+    padding: 40px 0px;
+}
